@@ -1,12 +1,12 @@
-<?php namespace App\Controllers;
+<?php 
+
+namespace App\Controllers;
  
 use CodeIgniter\Controller;
 use App\Models\UserModel;
  
 class Register extends Controller
 {
-
-    
     public function index()
     {
         //include helper form
@@ -19,8 +19,6 @@ class Register extends Controller
 		echo view('common/HeaderAdmin' , 	$data);
         echo view('register', $data);
 		echo view('common/FooterSite');
-
-       
     }
  
     public function save()
@@ -52,7 +50,7 @@ class Register extends Controller
                 'validation' => $this->validator
             ];
     
-            echo view('common/HeaderAdmin' , 	$data);
+            echo view('common/HeaderAdmin', $data);
             echo view('register', $data);
             echo view('common/FooterSite');
         }
