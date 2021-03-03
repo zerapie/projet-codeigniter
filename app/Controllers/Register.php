@@ -5,26 +5,24 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\UserModel;
  
-class Register extends Controller
+class Register extends BaseController
 {
     public function index()
     {
-        //include helper form
-        helper('form');
+        //include helper form - gestion du formulaire
+        //helper('form');
          $data = [
 			'page_title' => 'Register à wwww.site.com' ,
 			'aff_menu'  => false
 		];
 
-		echo view('common/HeaderAdmin' , 	$data);
-        echo view('register', $data);
-		echo view('common/FooterSite');
+		$this->afficheRegister('Register à wwww.site.com', false);
     }
  
     public function save()
     {
-        //include helper form
-        helper('form');
+        //include helper form - modifier dans BaseController.php
+        //helper('form');
         //set rules validation form
         $rules = [
             'name'          => 'required|min_length[3]|max_length[20]',
@@ -43,18 +41,24 @@ class Register extends Controller
             $model->save($data);
             return redirect()->to('/login');
         }else{
-            
-            $data = [
-                'page_title' => 'Register à wwww.site.com' ,
-                'aff_menu'  => false,
-                'validation' => $this->validator
-            ];
-    
-            echo view('common/HeaderAdmin', $data);
-            echo view('register', $data);
-            echo view('common/FooterSite');
+            //
+            $this->afficheRegister('Register à wwww.site.com', false, $this->validator) ;
+
         }
          
     }
- 
+    // function affiche page 
+    private function afficheRegister($page_title = 'Register à wwww.site.com', $aff_menu = false, $validation = 'validator')
+    {
+        $data = [
+            'page_title' => 'Register à wwww.site.com' ,
+            'aff_menu'  => false,
+            'validation' => $this->validator
+        ];
+
+        echo view('common/HeaderAdmin', $data);
+        echo view('register', $data);
+        echo view('common/FooterSite');
+
+    }
 }

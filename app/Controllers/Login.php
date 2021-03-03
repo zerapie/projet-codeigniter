@@ -9,22 +9,16 @@ class Login extends BaseController
 {
 	public function index()
 	{	
-
-		/** exemple de passage de variable a une vue */ 
-		$data = [
-			'page_title' => 'Connexion à wwww.site.com' ,
-			'aff_menu'  => false
-		];
-
-		echo view('common/HeaderAdmin' , $data);
-		echo view('Site/Login');
-		echo view('common/FooterSite');
-	}
+        /* **************************************************************************************************** * 
+         * *                             2 - Affiche une variable a une vue                                   * *
+         * **************************************************************************************************** */
+        $this->afficheLogin('Register à wwww.site.com', false);
+    }
 
 	public function connection()
     {
-        //include helper form - ne pas retirer
-        helper('form');
+        //include helper form - modifier dans BaseController.php 
+        //helper('form');
         //set rules validation form
         $rules = [
             //'name'          => 'required|min_length[3]|max_length[20]',
@@ -38,27 +32,45 @@ class Login extends BaseController
             $users = $userModel->where('userEmail', $this->request->getVar('email'))
                               ->findAll();
             d($users);
-            /* boucle de resulta pour mot de passe */
-            foreach ($users as $key => $user){
 
-                if (password_verify($db, $rules['password']) {
-                    return $users['userID'];
+            /* verrification de mot de passe */
+                foreach ($users as $user){
+                    // echo $user['userPassword'];
+                    // echo $this->request->getVar('email');
+                    if (password_verify($this->request->getVar('password'), $user['userPassword'])) {
+                        // verrification MDP vs MDP databasse
+                        $this->session->set(['userId' => $user['userId']]);
+                        // si ces bon redirection -> Accueil
+                        return redirect()->to('/Admin/Accueil');
+                    }
                 }
-            }
-            //return redirect()->to('/login');
+                //var_dump($this->session->get('connection'));
         } else {
-            
-            $data = [
-                'page_title' => 'Register à wwww.site.com' ,
-                'aff_menu'  => false,
-                'validation' => $this->validator
-            ];
-    
-            echo view('common/HeaderAdmin', $data);
-            echo view('Site/Login', $data);
-            echo view('common/FooterSite');
+
+            /* ****************************************************************************************************
+             * *                            2 - Affiche une variable a une vue                                  * *
+             * ************************************************************************************************** */
+            $this->afficheLogin('Register à wwww.site.com', false, $this->validator) ;
         }
-         
+    }
+
+    /* *************************************************************************************************** *
+     * *                                                                                                 * *
+     * *                            1 - Affiche une variable a une vue                                   * *
+     * *                                                                                                 * *
+     * *************************************************************************************************** */
+    private function afficheLogin($page_title = 'Register à wwww.site.com', $aff_menu = false, $validation = 'validator')
+    {
+        $data = [
+            'page_title' => 'Register à wwww.site.com' ,
+            'aff_menu'  => false,
+            'validation' => $this->validator
+        ];
+
+        echo view('common/HeaderAdmin', $data);
+        echo view('Site/Login', $data);
+        echo view('common/FooterSite');
+
     }
 
 }
