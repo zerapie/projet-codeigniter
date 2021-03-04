@@ -74,18 +74,27 @@
             <h1 class="logo-wrapper"><a class="brand-logo darken-1" href="index.html"><img src="<?php echo base_url('app-assets/images/logo/materialize-logo.png');?>" alt="materialize logo" /><span class="logo-text hide-on-med-and-down">Materialize</span></a><a class="navbar-toggler" href="#"><i class="material-icons">radio_button_checked</i></a></h1>
         </div>
         <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion">
-            
+            <!-- UTILISATEUR -->
             <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">face</i><span class="menu-title" data-i18n="User">Utilisateur</span><span class="badge badge pill purple float-right mr-10">3</span></a>
                 <div class="collapsible-body">
                     <ul class="collapsible collapsible-sub" data-collapsible="accordion">
-                        <li><a href="page-users-list.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif -->
-                        </li>
+                        <li><a href="page-users-list.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
                         
-                        <li><a href="page-users-edit.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a>
-                        </li>
+                        <li><a href="page-users-edit.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
                     </ul>
                 </div>
             </li>
+            <!-- ARTISTE -->
+            <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">mood</i><span class="menu-title" data-i18n="User">Artiste</span><span class="badge badge pill purple float-right mr-10">3</span></a>
+                <div class="collapsible-body">
+                    <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+                        <li><a href="<?php echo base_url('Admin/Artiste');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
+                        
+                        <li><a href="<?php echo base_url('Admin/Artiste/edit');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
+                    </ul>
+                </div>
+            </li>
+            <!--  -->
            
         </ul>
         <div class="navigation-background"></div><a class="sidenav-trigger btn-sidenav-toggle btn-floating btn-medium waves-effect waves-light hide-on-large-only" href="#" data-target="slide-out"><i class="material-icons">menu</i></a>

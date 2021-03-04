@@ -1,0 +1,254 @@
+CRITICAL - 2021-03-04 06:30:21 --> Class "CodeIgniter\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/artiste')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/artiste')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-04 06:35:30 --> Cannot use App\Controllers\BaseController as BaseController because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-04 07:08:42 --> Undefined variable $teste
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 2)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(18): view('Admin/Artiste', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 07:14:32 --> Undefined variable $teste
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 2)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(18): view('Admin/Artiste', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 07:49:31 --> Undefined variable $artisteModel
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 15)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->index()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 07:59:27 --> Undefined variable $artisteModel
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 15)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->index()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 08:03:28 --> Undefined variable $artisteModel
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 17)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->index()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 08:04:14 --> Undefined variable $artisteModel
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 17)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->index()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 08:52:21 --> Undefined variable $tabArtiste
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 44)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(28): view('Admin/Artiste', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 08:54:38 --> Undefined variable $id
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 53)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(28): view('Admin/Artiste', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 09:51:48 --> Invalid file: Admin/Artiste/ArtisteEdite.php
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Artiste/A...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste/A...', Array, true)
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(29): view('Admin/Artiste/A...', Array)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->index()
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-04 09:59:48 --> Undefined variable $listeArtistes
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 41)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit('1')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 10:00:29 --> Invalid file: Admin/Artiste/ArtisteEdite.php
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Artiste/A...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste/A...', Array, true)
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(45): view('Admin/Artiste/A...', Array)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit('1')
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-04 10:00:37 --> Invalid file: Admin/Artiste/ArtisteEdite.php
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Artiste/A...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste/A...', Array, true)
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(45): view('Admin/Artiste/A...', Array)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit('1')
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-04 10:01:13 --> Undefined variable $tabArtistes
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste/ArtisteEdit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 45)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste/A...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(45): view('Admin/Artiste/A...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit('1')
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 12:12:00 --> Undefined variable $artiste
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste/ArtisteEdit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 24)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste/A...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(45): view('Admin/Artiste/A...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit('1')
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 12:15:29 --> Undefined variable $artiste
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste/ArtisteEdit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 24)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste/A...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(45): view('Admin/Artiste/A...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit('1')
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 12:28:42 --> Undefined property: App\Controllers\Admin\artiste::$requste
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/zerapie/...', 40)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit('1')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 13:10:44 --> Call to undefined method App\Controllers\Admin\artiste::afficheRegister()
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit('1')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-04 13:12:15 --> Call to undefined method App\Controllers\Admin\artiste::afficheRegister()
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit('1')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-04 13:12:18 --> Call to undefined method App\Controllers\Admin\artiste::afficheRegister()
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit('1')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-04 13:12:22 --> Call to undefined method App\Controllers\Admin\artiste::afficheRegister()
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit('1')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-04 14:04:27 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste/ArtisteEdit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 24)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste/A...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(72): view('Admin/Artiste/A...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 14:04:51 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste/ArtisteEdit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 24)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste/A...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(72): view('Admin/Artiste/A...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 14:07:57 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste/ArtisteEdit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 24)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste/A...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(72): view('Admin/Artiste/A...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 14:08:38 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste/ArtisteEdit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 45)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste/A...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(72): view('Admin/Artiste/A...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 14:12:08 --> syntax error, unexpected variable "$artiste"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Artiste/e...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Artiste/e...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 14:12:22 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste/ArtisteEdit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 45)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste/A...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(78): view('Admin/Artiste/A...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-04 14:14:06 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Artiste/ArtisteEdit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 45)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Artiste/A...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(80): view('Admin/Artiste/A...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
