@@ -79,7 +79,6 @@
                 <div class="collapsible-body">
                     <ul class="collapsible collapsible-sub" data-collapsible="accordion">
                         <li><a href="page-users-list.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
-                        
                         <li><a href="page-users-edit.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
                     </ul>
                 </div>
@@ -88,8 +87,16 @@
             <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">mood</i><span class="menu-title" data-i18n="User">Artiste</span><span class="badge badge pill purple float-right mr-10">3</span></a>
                 <div class="collapsible-body">
                     <ul class="collapsible collapsible-sub" data-collapsible="accordion">
-                        <li><a href="<?php echo base_url('Admin/Artiste');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
-                        
+                        <li><a href="<?php echo base_url('Admin/Artiste');?>" >     <i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
+                        <li><a href="<?php echo base_url('Admin/Artiste/edit');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- ROLE -->
+            <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">mood</i><span class="menu-title" data-i18n="User">Role</span><span class="badge badge pill purple float-right mr-10">3</span></a>
+                <div class="collapsible-body">
+                    <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+                        <li><a href="<?php echo base_url('Admin/Role');?>" >        <i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
                         <li><a href="<?php echo base_url('Admin/Artiste/edit');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
                     </ul>
                 </div>

@@ -59,15 +59,15 @@
                                             <!-- ACTION -->
                                             <td> 
                                                 <div class="invoice-action">
-                                                    <a href="<?php echo base_url('admin/artiste/edit/'.$artiste['id']); ?>" class="invoice-action-edit">        <i class="material-icons">edit</i>           </a>
-                                                    <a href="app-invoice-view.html" class="invoice-action-view mr-4">   <i class="material-icons">delete_forever</i> </a>
+                                                    <a href="<?php echo base_url('admin/artiste/edit/'.$artiste['id']); ?>"   class="invoice-action-edit">        <i class="material-icons">edit</i>           </a>
+                                                    <a href="<?php echo base_url('admin/artiste/delete/'.$artiste['id']); ?>" class="invoice-action-view mr-4">   <i class="material-icons">delete_forever</i> </a>
                                                 </div>
                                             </td>
                                         </tr>
                                     <?php
                                     }   ?>
-
                                 </tbody>
+                                    <?php echo $pager->links() ?>
                             </table>
                         </div>
                     </section>

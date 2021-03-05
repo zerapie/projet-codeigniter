@@ -1,0 +1,375 @@
+CRITICAL - 2021-03-05 06:16:55 --> Call to a member function paginate() on array
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->index()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 06:20:17 --> Attempt to read property "pager" on array
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Artiste.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Users/zerapie/...', 31)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->index()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 07:46:36 --> Required parameter $page follows optional parameter $id
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Required parame...', '/Users/zerapie/...', 91)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/artiste/d...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/artiste/d...')
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-05 08:12:58 --> Undefined constant "App\Controllers\Admin\asc"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\artiste->index()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\artiste))
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:34:15 --> syntax error, unexpected token "if", expecting "function" or "const"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Role')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Role')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 08:35:54 --> Class "App\Models\RoleModel" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(908): App\Controllers\Admin\role->__construct()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:36:34 --> Class "App\Models\RoleModel" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(908): App\Controllers\Admin\role->__construct()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:37:07 --> Class "App\Models\RoleModel" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(908): App\Controllers\Admin\role->__construct()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:41:06 --> Class "App\Models\RoleModel" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(908): App\Controllers\Admin\role->__construct()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:42:46 --> Class "App\Models\RoleModel" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(908): App\Controllers\Admin\role->__construct()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 08:49:19 --> Class "App\Models\RoleModel" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(908): App\Controllers\Admin\role->__construct()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-03-05 08:52:37 --> mysqli_sql_exception: Table 'admincodeigniter.roles' doesn't exist in /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->findAll()
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-05 08:52:37 --> Table 'admincodeigniter.roles' doesn't exist
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->findAll()
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-03-05 08:52:40 --> mysqli_sql_exception: Table 'admincodeigniter.roles' doesn't exist in /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->findAll()
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-05 08:52:40 --> Table 'admincodeigniter.roles' doesn't exist
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->findAll()
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-03-05 08:53:06 --> mysqli_sql_exception: Table 'admincodeigniter.roles' doesn't exist in /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->findAll()
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-05 08:53:06 --> Table 'admincodeigniter.roles' doesn't exist
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->findAll()
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-03-05 08:58:29 --> mysqli_sql_exception: Table 'admincodeigniter.roles' doesn't exist in /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->findAll()
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-05 08:58:29 --> Table 'admincodeigniter.roles' doesn't exist
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->findAll()
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-03-05 08:58:31 --> mysqli_sql_exception: Table 'admincodeigniter.roles' doesn't exist in /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->findAll()
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-05 08:58:31 --> Table 'admincodeigniter.roles' doesn't exist
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->findAll()
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-05 09:00:46 --> Class "App\Controllers\Admin\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Role')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Role')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-05 09:01:22 --> Class "App\Controllers\Admin\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Role')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Role')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-05 09:19:57 --> Undefined variable $tabRoles
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleListe.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 46)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(26): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 09:22:21 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleListe.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 55)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(26): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 09:24:38 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleListe.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 63)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(26): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 09:27:33 --> Undefined variable $pager
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleListe.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 71)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(26): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 09:32:00 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleListe.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 55)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(26): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 09:47:08 --> Undefined variable $tabRole
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 24)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-03-05 09:54:10 --> mysqli_sql_exception: Table 'admincodeigniter.roles' doesn't exist in /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(570): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(1140): CodeIgniter\Model->countAllResults(false)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->paginate(50)
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-05 09:54:10 --> Table 'admincodeigniter.roles' doesn't exist
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(570): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(1140): CodeIgniter\Model->countAllResults(false)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->paginate(50)
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-03-05 09:54:24 --> mysqli_sql_exception: Table 'admincodeigniter.roles' doesn't exist in /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(570): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(1140): CodeIgniter\Model->countAllResults(false)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->paginate(50)
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-05 09:54:24 --> Table 'admincodeigniter.roles' doesn't exist
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Database/BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(570): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(1140): CodeIgniter\Model->countAllResults(false)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(22): CodeIgniter\BaseModel->paginate(50)
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#9 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-05 10:12:01 --> Class "App\Controllers\Admin\ArtisteModel" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(908): App\Controllers\Admin\role->__construct()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 10:12:49 --> Undefined property: CodeIgniter\View\View::$artisteModel
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleListe.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/zerapie/...', 43)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(31): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 10:14:44 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleListe.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 54)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(31): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-05 10:18:40 --> syntax error, unexpected variable "$artiste", expecting "," or ";"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(31): view('Admin/Role/Role...', Array)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
