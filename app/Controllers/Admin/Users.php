@@ -10,8 +10,8 @@ class Users extends Controller
 
 			/** exemple de passage de variable a une vue */ 
 			$data = [
-				'page_title' => 'Admin > User Liste' ,
-				'aff_menu'  => true
+				'page_title' => 'Connexion à www.site.com' ,
+				'aff_menu'   => true
 			];
 	
 

@@ -15,19 +15,19 @@
                                 <span class="hide-on-small-only">Create artiste</span>
                             </a>
                         </div>
-                        <?php d($soloArtiste); ?>  
+                        <?php // dd($soloArtiste); ?>  
                         <div class="responsive-table">
                             <div id="validation" class="card card card-default scrollspy">
                                 <div class="card-content">
                                     <h4 class="card-title">Form Create Artist</h4>
                                     
-                                        <form action="<?php echo base_url('admin/artiste/edit/'.$soloArtiste['id']);?>" methode="POST">
+                                    <form action="<?php echo base_url('admin/artiste/edit/'.$soloArtiste['id']);?>" methode="POST" multiparte>
                                     
                                         <?php
                                         /* je veriffi si j'ai un id */ 
                                         if (isset($soloArtiste['id'])) {
                                             ?>
-                                            <!-- je cache mon champ pour dir que je suis dans le mode modifier -->
+                                            <!-- je cache mon champ pour dir que je suis dans le mode modifier / type="hidden" -->
                                             <input type="hidden" name="save" value='update'>
                                         <?php
                                         } else {
@@ -55,7 +55,6 @@
                                             </div>
                                         </div>
                                         <!-- annee_naissance -->
-                                        <div class="row">
                                             <div class="row">
                                                 <div class="input-field col s12">
                                                     <i class="material-icons prefix">date_range</i>
@@ -63,6 +62,14 @@
                                                     <label for="annee_naissance5">annee_naissance</label>
                                                 </div>
                                             </div>
+                                        <!-- image -->
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <i class="material-icons prefix">image</i>
+                                                <input type="file" id="image" name="image" class="dropify" data-default-file="" />
+                                            </div>
+                                        </div>
+
                                             <!-- valider -->
                                             <div class="row">
                                                 <div class="input-field col s12">

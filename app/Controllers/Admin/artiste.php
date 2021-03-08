@@ -55,29 +55,30 @@ class artiste extends BaseController
                         // nom - champ B-D =>  requette 
                         'nom'             => $this->request->getVar('nameForm'),
                         'prenom'          => $this->request->getVar('prenomForm'),
-                        'annee_naissance' => $this->request->getVar('annee_naissance')
+                        'annee_naissance' => $this->request->getVar('annee_naissance'),
+                        'image'           => $this->request->getFile('image')
                     ];
                     if ($this->request->getVar('save') == 'update') {
                         // update sauvegade id
                         $this->artisteModel->where('id', $id)
-                        ->set($dataSave)->update();
+                                           ->set($dataSave)->update();
                     } else {
-                        $this->artisteModel->sava($dataSave);
+                        $this->artisteModel->save($dataSave);
                     }
                     // 
-                }else{
-                    
                 }
             }
             if ($id == null ){$artiste = [
-                'id'        =>null,
+                'id'              =>null,
                 'nom'             => "",
                 'prenom'          => "",
-                'annee_naissance' => ""];
-        } else {
-            $artiste = $this->artisteModel->where('id', $id)
-                                          ->first();
+                'annee_naissance' => "",
+                'image'           => ""];
+            } else {
+                $artiste = $this->artisteModel->where('id', $id)
+                                              ->first();
             }
+
             $data = [
                 'page_title' => 'Connexion à www.site.com' ,
                 'aff_menu'  => true,
@@ -90,7 +91,7 @@ class artiste extends BaseController
         }
         public function delete($id=null)
         {
-            /* SUPPRETION D'UNE LIGNE */
+            /* SUPPRETION D'UNE LIGNE PAR ID*/
             $this->artisteModel->where('id', $id)->delete();
             /* REDIRECTION */
             return redirect()->to('/Admin/Artiste/');

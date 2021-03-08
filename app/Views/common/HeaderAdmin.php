@@ -92,12 +92,75 @@
                     </ul>
                 </div>
             </li>
+            <!-- FILM -->
+            <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">mood</i><span class="menu-title" data-i18n="User">Film</span><span class="badge badge pill purple float-right mr-10">3</span></a>
+                <div class="collapsible-body">
+                    <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+                        <li><a href="<?php echo base_url('Admin/Film');?>" >     <i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
+                        <li><a href="<?php echo base_url('Admin/Film/edit');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- GENRE -->
+            <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">mood</i><span class="menu-title" data-i18n="User">Genre</span><span class="badge badge pill purple float-right mr-10">3</span></a>
+                <div class="collapsible-body">
+                    <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+                        <li><a href="<?php echo base_url('Admin/Genre');?>" >     <i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
+                        <li><a href="<?php echo base_url('Admin/Genre/edit');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- INTERNAUTE -->
+            <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">mood</i><span class="menu-title" data-i18n="User">Internaute</span><span class="badge badge pill purple float-right mr-10">3</span></a>
+                <div class="collapsible-body">
+                    <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+                        <li><a href="<?php echo base_url('Admin/Internaute');?>" >     <i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
+                        <li><a href="<?php echo base_url('Admin/Internaute/edit');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- MESSAGE -->
+            <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">mood</i><span class="menu-title" data-i18n="User">Message</span><span class="badge badge pill purple float-right mr-10">3</span></a>
+                <div class="collapsible-body">
+                    <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+                        <li><a href="<?php echo base_url('Admin/Message');?>" >     <i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
+                        <li><a href="<?php echo base_url('Admin/Message/edit');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- NOTATION -->
+            <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">mood</i><span class="menu-title" data-i18n="User">Notation</span><span class="badge badge pill purple float-right mr-10">3</span></a>
+                <div class="collapsible-body">
+                    <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+                        <li><a href="<?php echo base_url('Admin/Notation');?>" >     <i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
+                        <li><a href="<?php echo base_url('Admin/Notation/edit');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- PAYS -->
+            <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">mood</i><span class="menu-title" data-i18n="User">Pays</span><span class="badge badge pill purple float-right mr-10">3</span></a>
+                <div class="collapsible-body">
+                    <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+                        <li><a href="<?php echo base_url('Admin/Pays');?>" >     <i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
+                        <li><a href="<?php echo base_url('Admin/Pays/edit');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- REGION -->
+            <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">mood</i><span class="menu-title" data-i18n="User">Region</span><span class="badge badge pill purple float-right mr-10">3</span></a>
+                <div class="collapsible-body">
+                    <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+                        <li><a href="<?php echo base_url('Admin/Region');?>" >     <i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
+                        <li><a href="<?php echo base_url('Admin/Region/edit');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
+                    </ul>
+                </div>
+            </li>
             <!-- ROLE -->
             <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">mood</i><span class="menu-title" data-i18n="User">Role</span><span class="badge badge pill purple float-right mr-10">3</span></a>
                 <div class="collapsible-body">
                     <ul class="collapsible collapsible-sub" data-collapsible="accordion">
                         <li><a href="<?php echo base_url('Admin/Role');?>" >        <i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Lister</span></a> <!--  class="active"  si le lien est actif --> </li>
-                        <li><a href="<?php echo base_url('Admin/Artiste/edit');?>" ><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
+                        <li><a href="<?php echo base_url('Admin/Role/edit');?>" >   <i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Ajouter</span></a> </li>
                     </ul>
                 </div>
             </li>

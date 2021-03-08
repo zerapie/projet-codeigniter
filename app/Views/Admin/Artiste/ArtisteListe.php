@@ -34,6 +34,8 @@
                                         <th>Prenom</th>
                                         <!-- annee naissance     -->
                                         <th>Annee_Naissance</th>
+                                        <!--    IMAGE     -->
+                                        <th>Image</th>
                                         <!-- action -->
                                         <th>Action</th>
                                     </tr>
@@ -56,6 +58,8 @@
                                             <td> <?php echo $artiste['prenom'] ?>           </td>
                                             <!-- annee naissance -->
                                             <td> <?php echo $artiste['annee_naissance'] ?>  </td>
+                                            <!--    IMAGE     -->
+                                            <th>Image</th>
                                             <!-- ACTION -->
                                             <td> 
                                                 <div class="invoice-action">

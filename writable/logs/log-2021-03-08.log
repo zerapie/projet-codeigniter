@@ -1,0 +1,410 @@
+CRITICAL - 2021-03-08 06:24:34 --> Undefined variable $soloArtiste
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 18)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(47): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 06:25:44 --> Undefined variable $soloArtiste
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 18)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(47): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 06:25:59 --> Undefined variable $soloArtiste
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 44)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(47): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 06:58:26 --> Class "App\Models\filmModel" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(908): App\Controllers\Admin\role->__construct()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 06:58:35 --> Class "App\Models\filmModel" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(908): App\Controllers\Admin\role->__construct()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 06:59:56 --> Class "App\Models\filmModel" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(908): App\Controllers\Admin\role->__construct()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 07:00:11 --> Call to a member function findAll() on null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 07:21:54 --> Undefined array key "id"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 48)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(52): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 07:23:16 --> Undefined array key "titre"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 48)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(52): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 07:24:40 --> Undefined array key "id"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 61)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(52): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 07:29:34 --> Undefined constant "condition"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(52): view('Admin/Role/Role...', Array)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 07:33:58 --> Undefined variable $variable
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 66)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(52): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 07:34:16 --> Undefined array key "id"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 67)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(52): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 08:01:14 --> Undefined variable $role
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 71)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(52): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 09:18:16 --> Undefined variable $id
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 78)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', '15')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 09:20:31 --> Undefined variable $id
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 78)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', '15')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 09:23:40 --> Undefined variable $id
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 83)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', '15')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 09:31:32 --> Undefined variable $id_acteur
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 84)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', '15')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 09:33:19 --> Undefined variable $id_acteur
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 84)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', '15')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 09:33:54 --> Undefined variable $id_acteur
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 84)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', '15')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 09:36:10 --> Undefined variable $id_acteur
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 84)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', '15')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 10:19:55 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(38): view('Admin/Role/Role...', Array)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-08 10:28:14 --> Undefined variable $filmModel
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleListe.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 44)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(38): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 10:28:54 --> Undefined variable $filmModel
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleListe.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 44)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(38): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 11:36:27 --> Undefined variable $filmModel
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleListe.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 44)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(38): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 11:38:40 --> Undefined variable $filmModel
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleListe.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 44)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(38): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 11:41:07 --> Cannot use object of type App\Models\FilmModel as array
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(39): view('Admin/Role/Role...', Array)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 11:43:23 --> Cannot use object of type App\Models\FilmModel as array
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(39): view('Admin/Role/Role...', Array)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 11:43:46 --> Cannot use object of type App\Models\FilmModel as array
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(39): view('Admin/Role/Role...', Array)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 11:44:51 --> Cannot use object of type App\Models\FilmModel as array
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(39): view('Admin/Role/Role...', Array)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 11:52:27 --> Undefined variable $artisre
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleListe.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 59)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(39): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 11:54:39 --> Undefined variable $film
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 33)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(102): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', '15')
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 12:04:10 --> Undefined variable $rules
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 51)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', '15')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 12:06:34 --> syntax error, unexpected token "if"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/role/edit...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/role/edit...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 12:11:44 --> syntax error, unexpected variable "$rules"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/role/edit...')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/role/edit...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 12:27:53 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 23)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(105): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', 'app-invoice-add...')
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 12:32:42 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 23)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(105): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', 'app-invoice-add...')
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 12:32:59 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 45)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(105): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', 'app-invoice-add...')
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 12:33:34 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 23)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(105): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', 'app-invoice-add...')
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 12:35:28 --> Undefined variable $rules
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 52)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', '15')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 12:57:49 --> There is no data to update.
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(71): CodeIgniter\Model->update()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', '15')
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-08 13:01:28 --> Trying to access array offset on value of type null
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Role/RoleEdit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/zerapie/...', 23)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Role/Role...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(103): view('Admin/Role/Role...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit('1', '15')
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 13:03:51 --> syntax error, unexpected token "}", expecting ";"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Role')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Role')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 13:04:54 --> syntax error, unexpected token "}", expecting ";"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Role')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Role')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 13:37:46 --> Call to undefined method App\Models\RoleModel::sava
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Role.php(74): CodeIgniter\Model->__call('sava', Array)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\role->edit()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\role))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

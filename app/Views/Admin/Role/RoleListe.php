@@ -12,7 +12,7 @@
               
                 <!-- create invoice button-->
                 <div class="invoice-create-btn">
-                    <a href="app-invoice-add.html" class="btn waves-effect waves-light invoice-create border-round z-depth-4">
+                    <a href="<?php echo base_url('Admin/Role/edit');?>" class="btn waves-effect waves-light invoice-create border-round z-depth-4">
                         <i class="material-icons">add</i>
                         <span class="hide-on-small-only">Create Role</span>
                     </a>
@@ -40,8 +40,13 @@
                         <tbody>
                             <?php
                                 foreach ($tabRoles as $key => $role) { 
+                                    // on selection la ligne a l'id du film
+                                    $film = $filmModel->where('id', $role['id_film'])
+                                                      ->first();
+                                    // on selection la ligne du nom de l'acteur
                                     $artiste = $artisteModel->where('id', $role['id_acteur'])
-                                    ->first();
+                                                            ->first();
+                                    // recherche en database
                             ?>
                                 <tr>
                                     <!-- data table responsive icons -->
@@ -49,21 +54,21 @@
                                     <!-- data table checkbox -->
                                     <td>                                            </td>
                                     <!-- nom -->
-                                    <td> <?php echo $role['id_film'] ?>              </td>
+                                    <td>    <?php if (isset($film['id'])) { echo $film['id']." - ".$film['titre'] ;} ?>                           </td>
                                     <!-- prenom -->
-                                    <td> <?php if (isset($artiste['nom'])) {echo $artiste['nom']." ". $artiste['prenom'] ;} ?>  </td>
+                                    <td>    <?php if (isset($artiste['nom']))   {echo $artiste['id']." - ".$artiste['nom']." ". $artiste['prenom'] ;} ?>    </td>
                                     <!-- annee naissance -->
-                                    <td> <?php echo $role['nom_role'] ?>  </td>
+                                    <td>    <?php echo $role['nom_role'] ?>  </td>
                                     <!-- ACTION -->
                                     <td> 
                                         <div class="invoice-action">
-                                            <a href="app-invoice-view.html"   class="invoice-action-edit">        <i class="material-icons">edit</i>           </a>
+                                            <a href="<?php echo base_url('admin/role/edit/'.$role['id_film'].'/'.$role['id_acteur']); ?>"   class="invoice-action-edit">        <i class="material-icons">edit</i>           </a>
                                             <a href="app-invoice-view.html" class="invoice-action-view mr-4">   <i class="material-icons">delete_forever</i> </a>
                                         </div>
                                     </td>
                                 </tr>
-                            <?php
-                            }   ?>
+                            <?php   }   
+                            ?>
                         </tbody>
                     </table>
                 </div>
