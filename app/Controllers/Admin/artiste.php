@@ -26,7 +26,7 @@ class artiste extends BaseController
             $data = [
                 'page_title'  => 'Connexion à www.site.com' ,
                 'aff_menu'    => true,
-                'tabArtistes' => $this->artisteModel->orderBy('id', 'desc')->paginate(50),
+                'tabArtistes' => $this->artisteModel->orderBy('id', 'asc')->paginate(50),
                 'pager'       => $this->artisteModel->pager,
             ];
             // 
@@ -50,13 +50,16 @@ class artiste extends BaseController
                 ];
 
                 // tretement de rules 
-                if($this->validate($rules)){
+                if($this->validate($rules)){ 
+                    $file = $this->request->getFile('imageF');
+                    dd($_FILES);
+
                     $dataSave = [ //data = les chef corespond au cologne de la base de donnée
                         // nom - champ B-D =>  requette 
                         'nom'             => $this->request->getVar('nameForm'),
                         'prenom'          => $this->request->getVar('prenomForm'),
                         'annee_naissance' => $this->request->getVar('annee_naissance'),
-                        'image'           => $this->request->getFile('image')
+                        // 'image'           => $this->request->getFile('image')
                     ];
                     if ($this->request->getVar('save') == 'update') {
                         // update sauvegade id
@@ -73,7 +76,7 @@ class artiste extends BaseController
                 'nom'             => "",
                 'prenom'          => "",
                 'annee_naissance' => "",
-                'image'           => ""];
+                ];
             } else {
                 $artiste = $this->artisteModel->where('id', $id)
                                               ->first();

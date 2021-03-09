@@ -32,22 +32,23 @@
                                 </thead>
 
                                 <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <!-- data table responsive icons -->
-                                        <td></td>
-                                        <!-- data table checkbox -->
-                                        <td></td>
-                                        <!-- NOM -->
-                                        <td></td>
-                                        <!-- ACTION -->
-                                        <td>
-                                            <div class="invoice-action">
-                                                <a href="app-invoice-view.html" class="invoice-action-view mr-4"><i class="material-icons">remove_red_eye</i></a>
-                                                <a href="app-invoice-edit.html" class="invoice-action-edit">     <i class="material-icons">edit</i>          </a>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                    <?php foreach ($tabRegion as $key => $region) { ?>
+                                        <tr>
+                                            <!-- data table responsive icons -->
+                                            <td></td>
+                                            <!-- data table checkbox -->
+                                            <td></td>
+                                            <!-- NOM -->
+                                            <td> <?php if (isset($region['nom'])) { echo $region['nom'] ;} ?>  </td>
+                                            <!-- ACTION -->
+                                            <td>
+                                                <div class="invoice-action">
+                                                    <a href="app-invoice-view.html" class="invoice-action-view mr-4"><i class="material-icons">remove_red_eye</i></a>
+                                                    <a href="app-invoice-edit.html" class="invoice-action-edit">     <i class="material-icons">edit</i>          </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    <?php   }   ?>
                                 </tbody>
                             </table>
                         </div>

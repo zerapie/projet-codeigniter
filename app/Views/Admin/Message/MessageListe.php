@@ -27,17 +27,17 @@
                                         <!-- ID -->
                                         <th>    <span>ID#</span>    </th>
                                         <!-- ID_PERE -->
-                                        <th>Nom</th>
+                                        <th>id_pere</th>
                                         <!-- ID_FILM -->
-                                        <th>E-mail</th>
+                                        <th>id_film</th>
                                         <!-- SUJET -->
-                                        <th>Date d'ins.</th>
+                                        <th>sujet</th>
                                         <!-- TEXTE -->
-                                        <th>Tags</th>
+                                        <th>Texte</th>
                                         <!-- DATE CREATION -->
-                                        <th>Status</th>
+                                        <th>date_creation</th>
                                         <!-- EMAIL CREATION -->
-                                        <th></th>
+                                        <th>email_creation</th>
                                         <!-- ACTION -->
                                         <th>Action</th>
                                     </tr>

@@ -1,17 +1,29 @@
 <?php
-
 namespace App\Controllers\Admin;
-use CodeIgniter\Controller;
+
+use App\Controllers\BaseController;
+use App\Models\FilmModel;
 
 class Film extends BaseController
 {
+	public $filmModel = null;
 
-	public function index(){
-
+	public function __construct()
+	{
+		$this->filmModel = new filmModel();
+	}
+    /* **************************************************************************************************** *
+     * *                                                                                                  * *
+     * *                                            INDEX                                                 * *
+     * *                                                                                                  * *
+     * **************************************************************************************************** */
+	public function index()
+	{
 			/** exemple de passage de variable a une vue */ 
 			$data = [
-				'page_title' => 'Connexion à www.site.com' ,
-				'aff_menu'   => true
+				'page_title'=> 'Connexion à www.site.com' ,
+				'aff_menu'  => true,
+				'tabFilm'	=> $this->filmModel->findAll()
 			];
 	
 

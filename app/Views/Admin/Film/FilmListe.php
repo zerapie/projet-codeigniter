@@ -27,15 +27,15 @@
                                         <!-- ID -->
                                         <th>id</th>
                                         <!-- TITRE -->
-                                        <th>Nom</th>
+                                        <th>titre</th>
                                         <!-- ANNEE -->
-                                        <th>E-mail</th>
+                                        <th>annee</th>
                                         <!-- ID REALISATEUR -->
-                                        <th>Date d'ins.</th>
+                                        <th>id_realisateur</th>
                                         <!-- GENRE -->
-                                        <th>Tags</th>
+                                        <th>Genre</th>
                                         <!-- RESUME -->
-                                        <th>Status</th>
+                                        <th>resume</th>
                                         <!-- CODE PAYS -->
                                         <!-- ACTION -->
                                         <th>Action</th>
@@ -43,32 +43,34 @@
                                 </thead>
 
                                 <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <!-- data table responsive icons -->
-                                        <td></td>
-                                        <!-- data table checkbox -->
-                                        <td></td>
-                                        <!-- ID -->
-                                        <td></td>
-                                        <!-- NOM -->
-                                        <td></td>
-                                        <!-- EMAIL -->
-                                        <td></td>
-                                        <!-- DATE INSCRPTION -->
-                                        <td></td>
-                                        <!-- TAG -->
-                                        <td></td>
-                                        <!-- STATUS -->
-                                        <td></td>
-                                        <!-- ACTION -->
-                                        <td>
-                                            <div class="invoice-action">
-                                                <a href="app-invoice-view.html" class="invoice-action-view mr-4"><i class="material-icons">remove_red_eye</i></a>
-                                                <a href="app-invoice-edit.html" class="invoice-action-edit">     <i class="material-icons">edit</i>          </a>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                    <?php foreach ($tabFilm as $key => $film) {   ?>
+                                        <tr>
+                                            <!-- data table responsive icons -->
+                                            <td></td>
+                                            <!-- data table checkbox -->
+                                            <td></td>
+                                            <!-- ID -->
+                                            <td>    <?php echo $film['id'] ?>               </td>
+                                            <!-- TITRE -->
+                                            <td>    <?php echo $film['titre'] ?>            </td>
+                                            <!-- ANNEE -->
+                                            <td>    <?php echo $film['annee'] ?>            </td>
+                                            <!-- ID REALISATEUR -->
+                                            <td>    <?php echo $film['id_realisateur'] ?>   </td>
+                                            <!-- GENRE -->
+                                            <td>    <?php echo $film['genre'] ?>            </td>
+                                            <!-- RESUME -->
+                                            <td>    <?php echo $film['resume'] ?>           </td>
+                                            <!-- ACTION -->
+                                            <td>
+                                                <div class="invoice-action">
+                                                    <a href="<?php echo base_url('admin/artiste/edit/'.$film['id']); ?>" class="invoice-action-edit">     <i class="material-icons">edit</i>          </a>
+                                                    <a href="<?php echo base_url('admin/artiste/delete/'.$film['id']); ?>" class="invoice-action-view mr-4"><i class="material-icons">delete_forever</i></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    <?php }   ?>
+
                                 </tbody>
                             </table>
                         </div>

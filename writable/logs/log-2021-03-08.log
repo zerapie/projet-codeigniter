@@ -408,3 +408,161 @@ CRITICAL - 2021-03-08 13:37:46 --> Call to undefined method App\Models\RoleModel
 #3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2021-03-08 17:16:38 --> Class "App\Controllers\Admin\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Film')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Film')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 17:47:14 --> Class "App\Controllers\Admin\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Film')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Film')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 17:47:38 --> Class "App\Controllers\Admin\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Genre')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Genre')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 17:48:07 --> Class "App\Controllers\Admin\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Region')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Region')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 17:50:42 --> Class "App\Controllers\Admin\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Region')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Region')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 17:53:39 --> Class "App\Controllers\Admin\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Region')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Region')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 17:59:10 --> Class "App\Controllers\Admin\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Region')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Region')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 18:00:23 --> Class "App\Controllers\Admin\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Region')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Region')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 18:11:17 --> Class "App\Controllers\Admin\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Region')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Region')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 18:16:37 --> Class "CodeIgniter\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Region')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Region')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 18:16:54 --> Class "CodeIgniter\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Film')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Film')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 18:17:03 --> Class "CodeIgniter\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Region')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Region')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 18:19:47 --> Class "CodeIgniter\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Region')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Region')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 18:24:18 --> Class "CodeIgniter\BaseController" not found
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(562): include_once()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('Admin/Film')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Admin/Film')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 18:28:00 --> Undefined property: App\Controllers\Admin\region::$Region
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Region.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/zerapie/...', 26)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\region->index()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\region))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 18:28:02 --> Undefined property: App\Controllers\Admin\region::$Region
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Region.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/zerapie/...', 26)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\region->index()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\region))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 18:28:57 --> Undefined variable $tabRegion
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Views/Admin/Region/RegionListe.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 35)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('Admin/Region/Re...', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Region.php(31): view('Admin/Region/Re...', Array)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\region->index()
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\region))
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 18:31:30 --> Undefined property: App\Controllers\Admin\region::$regionModel
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Region.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/zerapie/...', 26)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\region->index()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\region))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 18:35:16 --> Undefined property: App\Controllers\Admin\Pays::$paysModel
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Pays.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/zerapie/...', 16)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\Pays->index()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pays))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 18:35:35 --> Undefined property: App\Controllers\Admin\Pays::$PaysModel
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Admin/Pays.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/zerapie/...', 16)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Admin\Pays->index()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pays))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

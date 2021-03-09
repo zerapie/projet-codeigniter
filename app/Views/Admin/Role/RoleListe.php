@@ -1,6 +1,4 @@
-<?php 
- 
-?><div id="main">
+<div id="main">
 <div class="row">
     <div class="content-wrapper-before blue-grey lighten-5"></div>
     <div class="col s12">

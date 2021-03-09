@@ -14,14 +14,14 @@ class role extends BaseController
 
     public function __construct()
         {
-            $this->roleModel = new RoleModel();
-            $this->filmModel = new filmModel(); // 3
+            $this->roleModel    = new RoleModel();
+            $this->filmModel    = new filmModel(); // 3
             $this->artisteModel = new ArtisteModel();
         }
     /* **************************************************************************************************** *
-     * *
+     * *                                                                                                  * *
      * *                                            INDEX                                                 * *
-     * *
+     * *                                                                                                  * *
      * **************************************************************************************************** */
 	public function index()
     {
@@ -31,7 +31,7 @@ class role extends BaseController
 			'aff_menu'      => true,
             'tabRoles'      => $this->roleModel->findAll(),
             'artisteModel'  => $this->artisteModel,
-            'filmModel'     => $this->filmModel,
+            'filmModel'     => $this->filmModel,    // 4
 		];
         
 

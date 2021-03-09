@@ -21,8 +21,8 @@
                                 <div class="card-content">
                                     <h4 class="card-title">Form Create Artist</h4>
                                     
-                                    <form action="<?php echo base_url('admin/artiste/edit/'.$soloArtiste['id']);?>" methode="POST" multiparte>
-                                    
+                                    <form action="<?php echo base_url('admin/artiste/edit/'.$soloArtiste['id']);?>" method="POST"  enctype="multipart/form-data">
+
                                         <?php
                                         /* je veriffi si j'ai un id */ 
                                         if (isset($soloArtiste['id'])) {
@@ -36,7 +36,6 @@
                                         <?php
                                         }
                                         ?>
-                                        <!-- id -->
                                         
                                         <!-- nom -->
                                         <div class="row">
@@ -63,12 +62,17 @@
                                                 </div>
                                             </div>
                                         <!-- image -->
-                                        <div class="row">
-                                            <div class="input-field col s12">
-                                                <i class="material-icons prefix">image</i>
-                                                <input type="file" id="image" name="image" class="dropify" data-default-file="" />
+                                        <div class="file-field input-field col s12">
+                                                <div class="btn">
+                                                    <i class="material-icons right">add_a_photo</i>
+                                                    <span> Photo de l'artiste </span>
+                                                    <input type="file" name="imageF">
+                                                </div>
+                                                <div class="file-path-wrapper">
+                                                    <input class="file-path validate" type="text">
+                                                </div>
                                             </div>
-                                        </div>
+
 
                                             <!-- valider -->
                                             <div class="row">

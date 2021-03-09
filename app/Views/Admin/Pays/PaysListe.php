@@ -25,11 +25,11 @@
                                         <!-- data table checkbox -->
                                         <th></th>
                                         <!-- CODE -->
-                                        <th>Nom</th>
+                                        <th>code</th>
                                         <!-- NOM -->
-                                        <th>E-mail</th>
+                                        <th>nom</th>
                                         <!-- LANGUE -->
-                                        <th>Date d'ins.</th>
+                                        <th>langue</th>
                                         <!-- ACTION -->
                                         <th>Action</th>
                                     </tr>

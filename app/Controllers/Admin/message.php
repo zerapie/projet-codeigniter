@@ -1,7 +1,8 @@
 <?php
-
 namespace App\Controllers\Admin;
-use CodeIgniter\Controller;
+
+use App\Controllers\BaseController;
+use App\Models\MessageModel;
 
 class Message extends BaseController
 {
