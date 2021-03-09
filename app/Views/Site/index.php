@@ -5,11 +5,11 @@
     <h4 class="header">Blog Card</h4>
     <div class="row mt-2">
         <?php foreach ($tabFilm as $film) {
-            $nomRealisateur = null;   
+            $nomRealisateur = null;  // 1 
             // on selection la ligne du nom de l'acteur
-            $realisateur = $artisteModel->where('id', $film['id_realisateur'])
+            $realisateur = $artisteModel->where('id', $film['id_realisateur']) // 2
             ->first();
-            if (isset($realisateur['id'])) { $nomRealisateur = $realisateur['nom']." ".$realisateur['prenom'];}
+            if (isset($realisateur['id'])) { $nomRealisateur = $realisateur['nom']." ".$realisateur['prenom'];}// 3
             ?>
             <div class="col s12 m6 l4 card-width">
                 <div class="card-panel border-radius-6 mt-10 card-animation-1">
@@ -18,14 +18,14 @@
                     <!-- nom film -->
                     <h6><a href="#" class="mt-5"><?php echo $film['titre'] ?></a></h6>
                     <!-- resume -->
-                    <p><?php echo $film['resume'] ?> </p>
+                    <p> <?php echo $film['resume'] ?> </p>
                     <div class="row mt-4">
                         <div class="col s2">
                             <!-- image realisateur -->
-                          <a href="#">  <img src="../../../app-assets/images/user/9.jpg" width="40" alt="fashion" class="circle responsive-img mr-3" /> </a>
+                            <a href="#">  <img src="../../../app-assets/images/user/9.jpg" width="40" alt="fashion" class="circle responsive-img mr-3" /> </a>
                         </div>
                         <!--  nom realisateur -->
-                        <a href="#">    <div class="col s3 p-0 mt-1"><span class="pt-2"><?php echo $nomRealisateur ?> </span></div>                                             </a>
+                        <a href="<?php echo "/home/index/realisateur/".$film['id_realisateur']?>">    <div class="col s3 p-0 mt-1"><span class="pt-2"><?php echo $nomRealisateur ?> </span></div>                       </a>
                         <div class="col s7 mt-1 right-align">
                             <!-- like -->
                             <a href="#">  <span class="material-icons">favorite_border</span>                                                             </a>
@@ -44,4 +44,3 @@
 
   <div class="divider mt-8"></div>
 
-  ." ". $realisateur['prenom']

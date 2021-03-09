@@ -12,6 +12,7 @@ class Home extends BaseController
 	public $filmModel = null;
 	public $artisteModel = null;
 
+	
 
 	public function __construct()
 	{
@@ -24,13 +25,19 @@ class Home extends BaseController
      * *                                            INDEX                                                 * *
      * *                                                                                                  * *
      * **************************************************************************************************** */
-	public function index()
-	{	
+	public function index($type=null, $elementRechercher=null)
+	{
+		// creation d'un moteur de recherche	
+		$maRecherche = $this->filmModel->findAll();
+		if (!empty($type) && !empty($elementRechercher)) {
+			$maRecherche = $this->filmModel->where('id_realisateur', $elementRechercher)->findAll();
+		}
+
 		/** exemple de passage de variable a une vue */ 
 		$data = [
 			'page_title'	=> 'Connexion à www.site.com' ,
 			'aff_menu'  	=> true,
-			'tabFilm'		=> $this->filmModel->findAll(),
+			'tabFilm'		=> $maRecherche,
 			'artisteModel'  => $this->artisteModel,
 		];
 			

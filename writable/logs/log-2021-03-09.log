@@ -443,3 +443,13 @@ CRITICAL - 2021-03-09 13:04:34 --> Trying to access array offset on value of typ
 #7 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2021-03-09 14:18:08 --> Call to undefined function url()
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(220): include()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('/Site/index', Array, true)
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Home.php(45): view('/Site/index', Array)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Home->index('realisateur', '64')
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
