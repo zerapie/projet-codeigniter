@@ -8,24 +8,39 @@
             $nomRealisateur = null;  // 1 
             // on selection la ligne du nom de l'acteur
             $realisateur = $artisteModel->where('id', $film['id_realisateur']) // 2
-            ->first();
+                                        ->first();
             if (isset($realisateur['id'])) { $nomRealisateur = $realisateur['nom']." ".$realisateur['prenom'];}// 3
             ?>
+            
             <div class="col s12 m6 l4 card-width">
                 <div class="card-panel border-radius-6 mt-10 card-animation-1">
                     <!-- image film -->
                     <img class="responsive-img border-radius-8 z-depth-4 image-n-margin" src="../../../app-assets/images/cards/news-fashion.jpg" alt="images" />
+                    
                     <!-- nom film -->
                     <h6><a href="#" class="mt-5"><?php echo $film['titre'] ?></a></h6>
+                    
                     <!-- resume -->
-                    <p> <?php echo $film['resume'] ?> </p>
+                    <p> <?php echo substr($film['resume'], 0,100) ?>... </p>
+
+                    <!-- genre -->
                     <div class="row mt-4">
+                            <a href="#">    <div class="col s3 p-0 mt-1"><span class="pt-2"> genre </span></div></a>
+                    </div>
+                    <!-- code_pays -->
+                    <div class="row mt-4">
+                            <a href="#">    <div class="col s3 p-0 mt-1"><span class="pt-2"> code pays </span></div></a>
+                    </div>
+
+                    <div class="row mt-4">
+                        <!-- image realisateur -->
                         <div class="col s2">
-                            <!-- image realisateur -->
                             <a href="#">  <img src="../../../app-assets/images/user/9.jpg" width="40" alt="fashion" class="circle responsive-img mr-3" /> </a>
                         </div>
+
                         <!--  nom realisateur -->
-                        <a href="<?php echo "/home/index/realisateur/".$film['id_realisateur']?>">    <div class="col s3 p-0 mt-1"><span class="pt-2"><?php echo $nomRealisateur ?> </span></div>                       </a>
+                        <a href="<?php echo "/home/index/realisateur/".$film['id_realisateur']?>">    <div class="col s3 p-0 mt-1"><span class="pt-2"><?php echo $nomRealisateur ?> </span></div></a>
+
                         <div class="col s7 mt-1 right-align">
                             <!-- like -->
                             <a href="#">  <span class="material-icons">favorite_border</span>                                                             </a>

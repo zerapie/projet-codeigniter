@@ -1,0 +1,38 @@
+CRITICAL - 2021-03-10 06:26:22 --> Undefined variable $variable
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 34)
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Home->index('realisateur', '3')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 06:42:21 --> syntax error, unexpected token "if"
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('home/index')
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('home/index')
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 08:46:44 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::like(), 0 passed in /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php on line 836 and at least 1 expected
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(836): CodeIgniter\Database\BaseBuilder->like()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Home.php(60): CodeIgniter\Model->__call('like', Array)
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Home->index('like', 'genre')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-10 08:46:51 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::like(), 0 passed in /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php on line 836 and at least 1 expected
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(836): CodeIgniter\Database\BaseBuilder->like()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Home.php(60): CodeIgniter\Model->__call('like', Array)
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Home->index('like', 'genre')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-10 08:46:55 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::like(), 0 passed in /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php on line 836 and at least 1 expected
+#0 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/Model.php(836): CodeIgniter\Database\BaseBuilder->like()
+#1 /Users/zerapie/Documents/GitHub/projet-codeigniter/app/Controllers/Home.php(60): CodeIgniter\Model->__call('like', Array)
+#2 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(936): App\Controllers\Home->index('like', 'par')
+#3 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /Users/zerapie/Documents/GitHub/projet-codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/zerapie/Documents/GitHub/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
